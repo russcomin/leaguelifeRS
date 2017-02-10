@@ -1,0 +1,164 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+    font-family: Agency;
+    src: url(agency.ttf);
+}
+
+#container {
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+}
+
+.logo {
+	width: auto;
+	height: auto;
+	font-family: Agency;
+	font-size: 25px;
+	float: left;
+	margin-left: 27px;
+	margin-top: 17px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.menu {
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: 17px;
+	margin-right: 27px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.section {
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+
+.section h1 {
+	font-family: Agency;
+	font-size: 40px;
+	font-weight: inherit;
+	padding: 20px 0 0 0;
+}
+
+.section h2 {
+	font-family: Agency;
+	font-size: 20px;
+	font-weight: inherit;
+	padding: 3px 0 0 0;
+}
+
+.section ul li {
+	display: inline-block;
+}
+
+.section ul {
+	margin-top: 20px;
+}
+
+.card {
+	width: 270px;
+	height: 400px;
+	padding: 20px;
+}
+
+.card img {
+	width: 270px;
+	height: 190px;
+}
+
+.card p {
+	font-family: Agency;
+	font-size: 20px;
+	padding: 5px 14px 0px 14px;
+}
+
+.card_button {
+	transition: 1s;
+	width: 100px;
+	height: 40px;
+	font-family: Agency;
+	background-color: black;
+	color: white;
+	border: none;
+	margin-top: 15px;
+}
+
+.card_button:hover {
+	border: 1px solid black;
+	color: black;
+	background: none;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.onetwo {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#section_2 {
+	margin-top: 30px;
+}
+
+
+#section_3 {
+	margin-top: 30px;
+}
+
+#menu {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#links {
+	width: 100%;
+	height: 300px;
+	background: rgba(255,255,255,.8);
+	position: absolute;
+	top: -400px;
+	text-align: center;
+}
+
+.close {
+	position: absolute;
+	right: 25px;
+	top: -320px;
+	cursor: pointer;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: Agency;
+	font-size: 30px;
+}
+
+.links ul li {
+	padding: 19px;
+}
+
+.links hr {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.links ul li:hover {
+	opacity: .7;
+}

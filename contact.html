@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kontact</title>
+	<link rel="stylesheet" type="text/css" href="interface/contact.css">
+</head>
+<body>
+	<div id="container">	
+		<div class="header">
+			<span class="logo" id="home_btn">LEAGUELIFE</span>
+			<img id="close"  class="close" src="interface/images/icons/cancel.png">
+			<span id="menu"><img src="interface/images/icons/list-menu.png""></span>
+			<div class="links" id="links">
+				<ul>
+					<li><a href="index.html">POCETNA</a></li>
+					<hr>
+					<li><a href="vesti.html">VESTI</a></li>
+					<hr>
+					<li><a href="onama.html">O NAMA</a></li>
+					<hr>
+					<li><a href="#">KONTAKT</a></li>
+				</ul>
+			</div><!-- end links -->
+		</div><!-- end header -->
+
+			<div class="contacting">
+			
+				<h1>Posaljite nam poruku</h1><br>
+				<input type="text" name="email" placeholder="email..." class="email"><br>
+				<textarea type="text" name="message" placeholder="poruka..." class="message"></textarea><br>
+				<button type="button" id="send">POSALJI</button>
+				<h3>DRUSTVENE MREZE</h3>
+				<ul style="background-color: black;margin-top: 20px;">
+					<li><img src="interface/images/icons/facebook-logo.png"></li>
+					<li><img src="interface/images/icons/instagram-logo.png"></li>
+					<li><img src="interface/images/icons/twitter-logo.png"></li>
+				</ul>
+			</div>
+
+		</div><!-- end container -->
+
+		<script type="text/javascript">this.home_page = document.getElementById('home_btn').addEventListener('click',function () {document.location = "index.html";});</script>
+
+	<script type="text/javascript" src="res/controller.js"></script>
+</body>
+</html>

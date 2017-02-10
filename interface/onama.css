@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+    font-family: Agency;
+    src: url(agency.ttf);
+}
+
+#container {
+	width: 100%;
+	height: auto;
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+}
+
+.logo {
+	width: auto;
+	height: auto;
+	font-family: Agency;
+	font-size: 25px;
+	float: left;
+	margin-left: 27px;
+	margin-top: 17px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.menu {
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: 17px;
+	margin-right: 27px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#menu {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#links {
+	width: 100%;
+	height: 300px;
+	background: rgba(255,255,255,.8);
+	position: absolute;
+	top: -400px;
+	text-align: center;
+}
+
+.close {
+	position: absolute;
+	right: 25px;
+	top: -320px;
+	cursor: pointer;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: Agency;
+	font-size: 30px;
+}
+
+.links ul li {
+	padding: 19px;
+}
+
+.links hr {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.links ul li:hover {
+	opacity: .7;
+}
+
+.textholders {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.textholders h1 {
+	font-family: Agency;
+	font-weight: inherit;
+	font-size: 48px;
+	line-height: 80px;
+}
+
+.textholders p {
+	font-family: agency;
+	font-size: 21px;
+	padding: 5px 10px 0px 10px;
+}
